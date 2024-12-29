@@ -1,0 +1,30 @@
+[package]
+name = "thinkpad-backlight-api"
+description = "Keyboard backlight API for thinkpad"
+homepage = "https://github.com/vlad2030/thinkpad-backlight-api"
+repository = "https://github.com/vlad2030/thinkpad-backlight-api"
+readme = "README.md"
+keywords = ["linux", "backlight", "thinkpad"]
+categories = ["os", "hardware-support"]
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+libc = "0.2"
+
+[lib]
+path = "src/lib.rs"
+
+[profile.dev]
+opt-level = 0
+lto = "off"
+panic = "unwind"
+debug = true
+
+[profile.release]
+opt-level = "z"
+lto = "fat"
+panic = "abort"
+codegen-units = 1
+debug = false
+strip = true

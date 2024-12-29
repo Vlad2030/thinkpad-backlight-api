@@ -31,4 +31,4 @@ fn main() {
 
 ## Tested on
 
-- Lenovo thinkpad 480s (Ubuntu 24.04)
+- Lenovo thinkpad t480s (Ubuntu 24.04)

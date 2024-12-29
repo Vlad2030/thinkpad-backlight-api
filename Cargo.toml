@@ -4,6 +4,7 @@ description = "Keyboard backlight API for thinkpad"
 homepage = "https://github.com/vlad2030/thinkpad-backlight-api"
 repository = "https://github.com/vlad2030/thinkpad-backlight-api"
 readme = "README.md"
+license = "Apache-2.0"
 keywords = ["linux", "backlight", "thinkpad"]
 categories = ["os", "hardware-support"]
 version = "0.1.0"

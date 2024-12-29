@@ -8,6 +8,11 @@ keywords = ["linux", "backlight", "thinkpad"]
 categories = ["os", "hardware-support"]
 version = "0.1.0"
 edition = "2021"
+exclude = [
+    ".git*",
+    "rustfmt.toml",
+    "tests/*",
+]
 
 [dependencies]
 libc = "0.2"
